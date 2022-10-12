@@ -12,12 +12,9 @@
   <% end %>
 </ul>
 
-<ul>
-  <% @articles.each do |article| %>
-    <li>
-      <%= link_to article.title, article %>
-    </li>
-  <% end %>
-</ul>
+<%=link_to "New Article", new_article_path %>
+<%=link_to "This is a fake link",  new_article_url %>
+
+
 
 
